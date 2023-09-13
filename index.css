@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "futura", Sans-Serif;
+  }
+
+nav {
+    width: 100vw;
+    min-height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 2px solid rgb(227, 226, 226);
+}
+
+
+main {
+    width: 100vw;
+}
+
+  
+
+#logo {
+    display: inline-block;
+
+}
+
+figure > img {
+    height: 3.7rem;
+    width: 3.7rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.nav-left {
+    margin-left: 40px ;
+    width: 5vw;
+    cursor: pointer;
+}
+
+.nav-middle {
+    width: 70vw;
+    margin: 0.7rem;
+    cursor: pointer;
+
+}
+
+.nav-middle > ul > li:last-child {
+    color: #ff764d;
+}
+
+.nav-middle > ul {
+    width: 80vh;
+}
+
+
+.nav-right  {
+    width: 20vw;
+    cursor: pointer;
+}
+
+.nav-right > ul > li:first-child {
+    color: #0000ff;
+
+    ;
+}
+
+.about-nav {
+    margin: 10px 40px ;
+    font-size: 0.8rem;
+    width: 13vw;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+.about-nav > li:first-of-type {
+      color: #ff764d;
+  }
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
+.img-playing-keyboard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img-playing-keyboard > img {
+    object-fit: cover;
+    width: 83vw;
+    height: 85vh;
+}
+
+h1 {
+    position: absolute;
+    font-size: 8rem;
+    color: #ff764d;
+    top: 35vh;
+    right: 35vw;
+}
+
+
+.text{
+    width: 45vw;
+    height: 10vw;
+    margin: 80px auto;
+}
+
+.text > h2{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    padding-bottom: 1rem;
+}
+
+.text > p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    overflow-wrap: break-word;
+}
+
+
+.text > h2 > a {
+    color: #0000ff;
+}
+
+.sections {
+    width: 100vw;
+    height: 110vh;
+    margin: 0 auto;
+    padding-top: 10rem;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-content: center;
+    position: relative;
+
+}
+
+.studo-img > img {
+    width: 40vw;
+    object-fit: cover;
+}
+
+.mic-img > img {
+    padding-top: 3rem;
+    width: 30vw;
+    object-fit: cover;
+}
+
+.yellowdiv {
+    position: absolute;
+    top: 0;
+    left:  40%;
+    right:0;
+    bottom: 0;
+    background: #fbffa7;
+    z-index: -1;
+}
+
+.lightgreen-section {
+    width: 100vw;
+    min-height: 130vh;
+    padding: 90px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.lightgreen-left-section{
+    width: 28vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 70px; 
+}
+
+.lightgreendiv {
+    position: absolute;
+    top: 0;
+    right:  40%;
+    left:0;
+    bottom: 0;
+    background: #b6ffc0;
+    z-index: -1;
+}
+
+
+
+.playing-piano-img > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.editing-music-img > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.producing-img > img {
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    margin:auto;
+    width: 45vw;
+    object-fit: cover;
+}
+
+
+.fullwidth-img {
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
+.fullwidth-img > img {
+    padding-top: 5rem;
+    width: 65vw;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.outro-page {
+    padding-top: 5rem;
+    width: 100vw;
+}
+
+.blurry-img-info {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1c5ff;
+    
+} 
+
+
+
+.blurry-img > img {
+    width: 48vw;
+    object-fit: cover;
+    vertical-align:middle;
+}
+
+.text-blurry-img {
+    width: 23vw;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.text-blurry-img > h2 > a {
+    display: inline-block;
+    padding-top: 2rem;
+    color: #0000ff;
+}
+
+
+.footer-container {
+    font-family: "Avenir next", Sans-Serif;
+    border-top: 2px solid rgb(227, 226, 226);
+    margin-top: 10rem;
+    padding: 5rem;
+    min-height: 90vh;
+    width: 100%;
+}
+
+
+
+.title-footer > h2  {
+        margin:0 0 5rem 0;
+        font-size: 3.5rem;
+}
+
+.footer-ul-top-list > h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer-ul-top-list > p {
+   font-size: 1rem;
+}
+
+.footer-ul-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    padding-bottom: 3rem;
+
+}
+
+.social-media-icons {
+    width: 20vw;
+}
+
+.social-media-icons > i:first-of-type {
+    font-size: 2em;
+    float: inline-start;
+  }
+
+
+
+
+
+.footer-ul-top-list > ul  {
+    display: block;   
+}
+
+
+.footer-ul-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+
+
+
+.footer-ul-bottom-list > ul  {
+    display: block;   
+}
+
+.footer-ul-top-list > ul > li  {
+   font-size: 1rem;
+   
+}
+
+.footer-ul-top-list > ul > li::after  {
+    font-size: 0.9rem;
+    font-weight: 500;
+    content: " >";  
+ }
+
+
+ .footer-ul-bottom-list > h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+ .footer-ul-bottom-list > ul > li::after  {
+    font-size: 0.9rem;
+    font-weight: 500;
+    content: " >";  
+ }
+
+.lang-location-div > select  {
+        appearance: none;
+        background-color: rgb(240, 238, 238);
+        outline: 1px solid black; 
+        padding: 0 1em 0 0;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: inherit;
+        line-height: inherit;      
+}
+.lang-location > h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.lang-location-div {
+    display: flex;
+    gap: 20px;
+}
+
+
+.bottom-text {
+    position: relative;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-text-left {
+    margin-right: 20px ;
+    margin-left: 0;
+    font-size: 0.8rem;
+    width: 35vw;
+    font-weight: 600;
+
+}
+
+.bottom-info-right {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    width: 12vw;
+    font-weight: 600;
+}
+
+.bottom-info-right > img {
+   position: absolute;
+   right: 0;
+   top: -12px;
+
+
+}
+
+
+
+
+
